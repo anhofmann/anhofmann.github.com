@@ -1,50 +1,77 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
+
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>anHofmann.github.com by anhofmann</title>
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="javascripts/respond.js"></script>
-    <!--[if lt IE 9]>
-      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <!--[if lt IE 8]>
-    <link rel="stylesheet" href="stylesheets/ie.css">
-    <![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="anHofmann.github.com : test" />
 
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>anHofmann.github.com</title>
   </head>
+
   <body>
-      <div id="header">
-        <nav>
-          <li class="fork"><a href="https://github.com/anhofmann">View On GitHub</a></li>
-        </nav>
-      </div><!-- end header -->
 
-    <div class="wrapper">
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/anhofmann">View on GitHub</a>
 
-      <section>
-        <div id="title">
-          <h1>anHofmann.github.com</h1>
-          <p>test</p>
-          <hr>
-          <span class="credits left">Project maintained by <a href="https://github.com/anhofmann">anhofmann</a></span>
-          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="http://twitter.com/#!/michigangraham">mattgraham</a></span>
-        </div>
+          <h1 id="project_title">anHofmann.github.com</h1>
+          <h2 id="project_tagline">test</h2>
 
-        <h1>blob</h1>
-
-<p><a href="http://www.fabrizio-branca.de/getting-started-with-typo3-flow.html">http://www.fabrizio-branca.de/getting-started-with-typo3-flow.html</a>
-<a href="http://www.youtube.com/results?search_query=F3X12">http://www.youtube.com/results?search_query=F3X12</a>
-<a href="http://forge.typo3.org/projects/flow3">http://forge.typo3.org/projects/flow3</a>
-<a href="http://wiki.typo3.org/Flow_Cookbook">http://wiki.typo3.org/Flow_Cookbook</a></p>
-      </section>
-
+        </header>
     </div>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>Golang</h1>
+
+<p>Deutsche Informationen zu Go
+<a href="http://ps.informatik.uni-siegen.de/downloads/Seminare/multicore-ws2011/donner.pdf">http://ps.informatik.uni-siegen.de/downloads/Seminare/multicore-ws2011/donner.pdf</a></p>
+
+<h1>IDE</h1>
+
+<p>Stand: März 2013</p>
+
+<ul>
+<li>LiteIDE: ist irgendwie lame: sieht lame aus, hat keine gute CodeCompletion, GOPATH unter Windows funzt irgendwie nicht, die Doku ist eine Katastrophe. Macht keinen Spaß.</li>
+<li>GoClipse: Eclipse halt, CodeCompletion ist ganz OK, Build ist komplex, hat keine tollen Features, die den Einsatz rechtfertigen würden.</li>
+<li>vim und emacs: nicht getestet, bisher soll alles auf Linux und Windows gehen, bin auch kein Fan von mauslosen Editoren.</li>
+<li>IntelliJ IDEA Community Edition: funzt, ohne das man was einstellen muß, CodeCompletion ist ziemlich gut. Hat so nette Sachen wie package per Alt+Enter importieren, wenn man es das erste mal nutzt. Dauert lange bis es mal startet. Man sieht leicht die Doku von Methoden (mit STRG+Q) Eigentlich eine super Sache. </li>
+<li>GoSublime: CodeCompletion ein kleinen ticken besser als IntelliJ, weil der noch die Parameter bei Methodenaufrufen reinschreibt, funktioniert mit gocode, ansonsten halt Sublime Text 2. Man sieht die Doku von Methoden in einem eigenen Tab (mit STRG+.,STRG+h oder SHIFT+STRG Rechtsklick), ist irgendwie eine gute Idee.</li>
+</ul><p>Endergebnis: GoSublime und IntelliJ liegen bisher gleichauf mit leichtem Vorsprung für GoSublime weil schneller startet, CodeCompletion ein bißchen besser ist.</p>
+
+<h1>Tools</h1>
+
+<p><a href="http://paulsamways.com/projects/gopkgsearch">http://paulsamways.com/projects/gopkgsearch</a> gutes Dokutool, wo man leicht und schnell nachgucken kann was ein Package alles drin hat und wie man es aufruft.</p>
+
+<p>github.com/nsf/gocode - ohne das macht CodeCompletion in keinem Editor Spaß.</p>
+
+<h1>TYPO3 FLOW</h1>
+
+<p>Zeugs das praktisch war zum lernen, aber nicht sofort auffindbar war:</p>
+
+<p><a href="http://www.fabrizio-branca.de/getting-started-with-typo3-flow.html">http://www.fabrizio-branca.de/getting-started-with-typo3-flow.html</a></p>
+
+<p><a href="http://www.youtube.com/results?search_query=F3X12">http://www.youtube.com/results?search_query=F3X12</a></p>
+
+<p><a href="http://forge.typo3.org/projects/flow3">http://forge.typo3.org/projects/flow3</a></p>
+
+<p><a href="http://wiki.typo3.org/Flow_Cookbook">http://wiki.typo3.org/Flow_Cookbook</a></p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
     
+
   </body>
 </html>
